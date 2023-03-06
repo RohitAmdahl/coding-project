@@ -1,0 +1,29 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "gallery",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitAmdahl/coding-project.git"
+  },
+  "keywords": [
+    "gallery",
+    "pictures",
+    "website",
+    "practice"
+  ],
+  "author": "kumar rohit <rohit_designer@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitAmdahl/coding-project/issues"
+  },
+  "homepage": "https://github.com/RohitAmdahl/coding-project#readme",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
