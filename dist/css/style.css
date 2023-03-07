@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 body {
   font-family: "Poppins", Arial, sans-serif;
 }
 
-p {
-  font-size: 1.2rem;
+span {
+  font-size: 2.5rem;
+  font-family: "Rubik Moonrocks", cursive, poppins;
+  color: #324202;
 }
 
 .sectionHeader {
@@ -127,6 +131,10 @@ form .fa-solid.fa-magnifying-glass {
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
+  margin-top: 8px;
+}
+.background-color li {
+  list-style: none;
 }
 
 .homepageImgs {
@@ -147,6 +155,7 @@ form .fa-solid.fa-magnifying-glass {
   width: 100%;
   max-width: 180px;
   border-radius: 25px;
+  margin-right: -50px;
 }
 
 /*# sourceMappingURL=style.css.map */

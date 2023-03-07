@@ -23,12 +23,17 @@
   width: 100%;
   margin: 0 auto;
   padding: 25px;
+  // border-radius: 25px;
   .middle {
     margin-top: -25px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+    margin-top: 8px;
+  }
+  li {
+    list-style: none;
   }
 }
 .homepageImgs {
@@ -47,4 +52,5 @@
   width: 100%;
   max-width: 180px;
   border-radius: 25px;
+  margin-right: -50px;
 }
