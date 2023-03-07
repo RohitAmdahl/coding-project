@@ -1,8 +1,4 @@
 .container {
-  display: flex;
-}
-
-.container {
   max-width: 750px;
   margin: 0 auto;
   display: grid;
@@ -11,59 +7,46 @@
   gap: 10px;
   grid-auto-flow: dense;
 }
-
 .w-1 {
   grid-column: span 3;
 }
-
 .w-2 {
   grid-column: span 3;
 }
-
 .w-3 {
   grid-column: span 3;
 }
-
 .w-4 {
   grid-column: span 3;
 }
-
 .w-5 {
   grid-column: span 3;
 }
-
 .w-6 {
   grid-column: span 3;
 }
-
 .w-7 {
   grid-column: span 3;
 }
-
 .w-8 {
   grid-column: span 6;
 }
-
+//-----
 .h-1 {
   grid-row: span 2;
 }
-
 .h-2 {
   grid-row: span 1;
 }
-
 .h-3 {
   grid-row: span 2;
 }
-
 .h-4 {
   grid-row: span 2;
 }
-
 .h-5 {
   grid-row: span 2;
 }
-
 .h-6 {
   grid-row: span 2;
 }
@@ -73,13 +56,11 @@
   height: 100%;
   position: relative;
 }
-
 .gallery-item .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
 .gallery-item.image,
 img {
   width: 100%;
@@ -88,10 +69,9 @@ img {
   object-position: 50% 50%;
   cursor: pointer;
   transition: 0.5s ease-in-out;
-}
-.gallery-item.image:hover,
-img:hover {
-  transform: scale(1.1);
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .gallery-item .text {
@@ -106,5 +86,3 @@ img:hover {
   z-index: 4;
   transition: 0.3s ease-in-out;
 }
-
-/*# sourceMappingURL=style.css.map */
