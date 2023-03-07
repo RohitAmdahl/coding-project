@@ -98,6 +98,7 @@ form .fa-solid.fa-magnifying-glass {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .container-2 {
@@ -112,6 +113,7 @@ form .fa-solid.fa-magnifying-glass {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  padding: 25px;
 }
 .background-color .middle {
   margin-top: -25px;
@@ -122,12 +124,14 @@ form .fa-solid.fa-magnifying-glass {
 }
 
 .homepageImgs {
+  margin: -10px;
   width: 100%;
   max-width: 350px;
   border-radius: 25px;
 }
 
 .nature {
+  margin: -10px;
   width: 100%;
   max-width: 250px;
   border-radius: 25px;
