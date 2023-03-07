@@ -4,33 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3fd806e42a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="sectionHeader">
+          <div class="header-logo">
+            <img src="pictures/logo/logo.png" class="logo" alt="logo" />
+          </div>
           <div class="container">
-            <div>
-              <img src="pictures/logo/logo.png" class="logo" alt="logo" />
-            </div>
             <div class="form">
-              <form action="">
+              <form action="" class="searchForm">
                 <input
                   type="text"
                   name="text"
                   class="search"
                   id="search"
-                  placeholder="Search photo love picture"
+                  placeholder="Search pictures"
                 />
+                <i class="fa-solid fa-magnifying-glass"></i>
               </form>
             </div>
           </div>
           <div class="nav-items">
-            <a href="#">Home</a>
-            <a href="#">Gallery</a>
-            <a href="#">Login |</a>
-            <a href="#">Sign UP</a>
+            <a href="#" class="nav_links">Home</a>
+            <a href="#" class="nav_links">Gallery</a>
+            <a href="#" class="nav_links">Profile </a>
+          </div>
+          <div class="userId">
+            <a href="#" class="user">Login</a>
+            <a href="#" class="user line">Sign UP</a>
           </div>
         </div>
       </nav>
