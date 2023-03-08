@@ -5,15 +5,18 @@ body {
 }
 
 span {
-  font-size: 2.5rem;
-  font-family: "Rubik Moonrocks", cursive, poppins;
+  font-size: 2rem;
+  font-family: "Poppins", cursive, poppins;
   color: #324202;
+  font-weight: bold;
 }
 
 .sectionHeader {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .sectionHeader .container {
   display: flex;
@@ -97,12 +100,19 @@ form .fa-solid.fa-magnifying-glass {
   border-radius: 5px;
 }
 
+.space {
+  margin: 15px;
+  padding: 10px;
+}
+
 .container-img {
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .container-img .main-img {
   display: flex;
@@ -116,6 +126,8 @@ form .fa-solid.fa-magnifying-glass {
   justify-content: space-evenly;
   align-content: center;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .background-color {
@@ -124,6 +136,7 @@ form .fa-solid.fa-magnifying-glass {
   width: 100%;
   margin: 0 auto;
   padding: 25px;
+  border-radius: 20%;
 }
 .background-color .middle {
   margin-top: -25px;
