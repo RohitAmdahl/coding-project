@@ -31,7 +31,6 @@
 }
 
 .middle {
-  // margin-top: -25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,6 +83,7 @@ li {
 }
 .slides {
   display: none;
+  transition: 0.3s ease-in-out;
 }
 .picture {
   display: block;
