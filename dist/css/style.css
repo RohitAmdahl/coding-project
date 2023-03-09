@@ -249,6 +249,33 @@ form .fa-solid.fa-magnifying-glass {
   margin-right: -50px;
 }
 
+.slider-area,
+.slider {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.slides {
+  display: none;
+}
+
+.picture {
+  display: block;
+  max-width: 500px;
+  transition: 0.3s ease-in-out;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

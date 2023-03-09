@@ -68,3 +68,30 @@
   border-radius: 25px;
   margin-right: -50px;
 }
+// //---
+.slider-area,
+.slider {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  // padding: 10px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.slides {
+  display: none;
+}
+
+.picture {
+  display: block;
+  max-width: 500px;
+  transition: 0.3s ease-in-out;
+}
