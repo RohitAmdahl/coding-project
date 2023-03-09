@@ -198,37 +198,32 @@ form .fa-solid.fa-magnifying-glass {
   flex-wrap: wrap;
 }
 
+.text {
+  margin: 1.2rem;
+}
+
 .container-2 {
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: space-around;
+  align-items: baseline;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-.background-color {
-  background: #f5f5f5;
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 25px;
-  border-radius: 20%;
-}
-.background-color .middle {
-  margin-top: -25px;
+.middle {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
   margin-top: 8px;
 }
-.background-color li {
+
+li {
   list-style: none;
 }
 
 .homepageImgs {
-  margin: -10px;
   width: 100%;
   max-width: 350px;
   border-radius: 25px;
@@ -253,7 +248,6 @@ form .fa-solid.fa-magnifying-glass {
 .slider {
   position: relative;
   width: 100%;
-  padding-top: 25px;
 }
 
 .wrapper {
@@ -262,7 +256,7 @@ form .fa-solid.fa-magnifying-glass {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 960px;
+  max-width: 1220px;
   margin: 0 auto;
 }
 
@@ -274,6 +268,11 @@ form .fa-solid.fa-magnifying-glass {
   display: block;
   max-width: 500px;
   transition: 0.3s ease-in-out;
+}
+
+.flower {
+  width: 100%;
+  max-width: 175px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -725,6 +724,14 @@ form {
   background-image: url(/pictures/logo/logo.png);
   background-position: center;
   background-size: 100px;
+}
+
+.mainHeading {
+  max-width: 960px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

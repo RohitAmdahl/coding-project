@@ -13,11 +13,11 @@ setInterval(function () {
 
 function changePicture() {
   //---function change pictures
-  if (index > 9) {
+  if (index > 8) {
     index = 0;
   }
   if (index < 0) {
-    index = 9;
+    index = 8;
   }
   for (let i = 0; i < totalsSlides; i++) {
     slides[i].classList.remove("picture");
